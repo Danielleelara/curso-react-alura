@@ -6,7 +6,7 @@ import './assets/index.css';
 class App extends Component {
   render(){
     return (
-      <section>
+      <section className="conteudo">
         <FormularioCadastro/>
         <ListaDeNotas/>      
       </section>

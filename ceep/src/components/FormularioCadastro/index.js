@@ -1,2 +1,2 @@
-import FormularioCadastro from "./Formulario";
+import FormularioCadastro from "./FormularioCadastro";
 export default FormularioCadastro;
