@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import Napraia from './Napraia.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={ logo } />
+        <img src={ Napraia } />
         <p>
           Meu projeto <code></code> 
         </p>
