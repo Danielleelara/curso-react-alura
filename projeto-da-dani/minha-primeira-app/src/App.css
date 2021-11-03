@@ -1,28 +1,21 @@
 .App {
   display: flex;
-  background-color: #820AD1;
+  background-color: #bb9fce;
   text-align: center;
   min-height: 100vh;
   flex-direction: column;
 }
-
-/* .App-header { 
-  background-color: #0e2f70;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: right;
+.button {
+  background-color: white;
+}
+.nome {
+  margin: 5px;
+}
+.titulo {
+  color:antiquewhite;
   font-size: 25px;
-  color: white;
 }
-.titulo{
-  color: greenyellow;
-  display: flex;
-}
-.button{
-  flex-end: center;
-  
-}*/
+
+
 
 
