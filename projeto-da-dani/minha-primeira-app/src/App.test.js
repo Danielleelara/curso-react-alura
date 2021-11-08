@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
+
 test('Saber se aparece o título', () => {
   render(<App />);
   const facaLogin = screen.getByText(/Faça seu login/i);
@@ -9,7 +10,7 @@ test('Saber se aparece o título', () => {
 
 test('Encontrar o botão', () => {
   render(<App />);
-  const getButton = screen.getByRole('button', {name: /Enviar/i});
+  const getButton = screen.getByRole('button', {name:/Enviar/i});
   expect(getButton).toBeInTheDocument();
 });
 
