@@ -1,6 +1,7 @@
 import React from "react";
 import { TextField,Button } from "@material-ui/core";
 
+
 function Cadastro(){
     return (
         <form>
@@ -9,10 +10,10 @@ function Cadastro(){
                     <TextField id="filled-basic" label="Nome" variant="filled" />
                 </div>
                 <div>
-                <TextField id="filled-basic" label="Senha" variant="filled" />
+                    <TextField id="filled-basic" label="Senha" variant="filled" />
                 </div>
                 <div className="email">
-                <Button variant="contained"color="secondary" >Enviar</Button>
+                    <Button variant="contained"color="secondary">Enviar</Button>
                 </div>
         </form>
     )

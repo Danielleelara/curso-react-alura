@@ -25,3 +25,5 @@ test('Encontrar o input de nome', () => {
   const getSenha = screen.getByLabelText(/Senha/i);
   expect(getSenha).toBeInTheDocument();
 });
+
+

@@ -1,3 +1,8 @@
+a:link {
+
+  text-decoration: none;
+  margin: 15px;
+}
 .App {
   display: flex;
   background-color: #bb9fce;
@@ -5,16 +10,19 @@
   min-height: 100vh;
   flex-direction: column;
 }
-.button {
+.Enviar {
   background-color: white;
+  margin: 100px;
 }
 .nome {
-  margin: 5px;
+  margin: 10px;
 }
 .titulo {
   color:antiquewhite;
   font-size: 25px;
+  
 }
+
 
 
 
