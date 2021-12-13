@@ -12,10 +12,10 @@ function App() {
     <Router>
       <Switch>
       <Route exact path='/'>
-      <Home/>
+        <Home/>
       </Route>
       <Route path='/sobre'>
-      <Sobre/>
+        <Sobre/>
       </Route>
       <Route>
         <Pagina404/>
