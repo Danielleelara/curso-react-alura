@@ -5,7 +5,7 @@ import '../assets/css/post.css'
 
 const Post = ()=>  {
     let history = useHistory()
-    const {id} = useParams()
+    const { id } = useParams()
     const[post, setPost] = useState({})
 
     useEffect(() => {
@@ -13,16 +13,14 @@ const Post = ()=>  {
         .catch(()=>{
             history.push('/404')
         }) 
-}, [id])
+},[ id ])
     
     return (
         <main className="container flex flex--centro">
             <article className="cartao post">
                 <h2 className=" cartao__titulo">{post.title}</h2>
                 <p className="cartao__texto">{post.body}</p>
-
             </article>
-
         </main>
     )
 

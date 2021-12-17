@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const ListaPost = ( {url} ) => {
     
     const [posts, setPosts] = useState([])
+    
     useEffect(()=>{
         busca(url, setPosts)
     }, [url])
@@ -18,7 +19,8 @@ const ListaPost = ( {url} ) => {
                     <p className="cartao-post__meta">{post.metadescription}</p>
                 </article>
                 </Link>
-            ))}
+            ))
+        }
 
         </section>
     )
